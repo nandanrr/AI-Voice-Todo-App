@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Voice Todo</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<script src="https://kit.fontawesome.com/3fe6c23444.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 class="title">TODO LIST</h1>
+
+<h2><span class="purple">Create</span> a task</h2>
+
+<div class="input-container">
+
+<input
+type="text"
+id="inputId"
+placeholder="Enter a task"
+/>
+
+<button onclick="startVoice()" class="mic-btn">
+🎤
+</button>
+
+<button onclick="createTask()" class="add-btn">
+ADD
+</button>
+
+</div>
+
+<h2>My tasks:</h2>
+
+<ul id="todoelements"></ul>
+
+<button id="saveBtn">SAVE</button>
+
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
