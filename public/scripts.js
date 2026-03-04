@@ -210,7 +210,7 @@ add(item);
 // AI REQUEST
 async function askAI(text){
 
-const response = await fetch("http://localhost:3000/ai-task",{
+const response = await fetch("/ai-task",{
     method:"POST",
     headers:{
         "Content-Type":"application/json"
